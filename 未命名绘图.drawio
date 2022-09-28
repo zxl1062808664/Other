@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-28T01:38:18.383Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="m1yqriOBvirXCKRo3h6T" version="20.3.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-28T02:10:24.090Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="dPyL01rYB-B0CWWWoMta" version="20.3.6" type="github">
   <diagram id="FST-DQ9QiqaY_Clv7Gd-" name="第 1 页">
-    <mxGraphModel dx="1028" dy="617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1209" dy="726" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -42,8 +42,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="x2DrsLJZWxIZ46RDdsqc-8" value="NPCManager&lt;br&gt;（固定时间判断条件是否满足，满足就执行对应状态）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="490" width="118" height="80" as="geometry" />
+        <mxCell id="x2DrsLJZWxIZ46RDdsqc-8" value="NPCManager&lt;br&gt;（固定时间判断条件是否满足，满足就执行对应状态）&lt;br&gt;注：如果当前状态不需要切换就返回" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="338" y="490" width="322" height="80" as="geometry" />
         </mxCell>
         <mxCell id="x2DrsLJZWxIZ46RDdsqc-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=23;" edge="1" parent="1" source="x2DrsLJZWxIZ46RDdsqc-11" target="x2DrsLJZWxIZ46RDdsqc-25">
           <mxGeometry relative="1" as="geometry">
@@ -108,6 +108,144 @@
         </mxCell>
         <mxCell id="x2DrsLJZWxIZ46RDdsqc-25" value="退出当前状态" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="438" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x2DrsLJZWxIZ46RDdsqc-35" value="ET的AI" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;" vertex="1" parent="1">
+          <mxGeometry x="436" y="340" width="124" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x2DrsLJZWxIZ46RDdsqc-36" value="&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="385" width="740" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="x2DrsLJZWxIZ46RDdsqc-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="x2DrsLJZWxIZ46RDdsqc-41" target="x2DrsLJZWxIZ46RDdsqc-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1371" y="625" />
+              <mxPoint x="1111" y="625" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x2DrsLJZWxIZ46RDdsqc-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="x2DrsLJZWxIZ46RDdsqc-41" target="x2DrsLJZWxIZ46RDdsqc-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1371" y="625" />
+              <mxPoint x="1291" y="625" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x2DrsLJZWxIZ46RDdsqc-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="x2DrsLJZWxIZ46RDdsqc-41" target="x2DrsLJZWxIZ46RDdsqc-47">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1371" y="625" />
+              <mxPoint x="1471" y="625" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x2DrsLJZWxIZ46RDdsqc-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="x2DrsLJZWxIZ46RDdsqc-41" target="x2DrsLJZWxIZ46RDdsqc-49">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1371" y="625" />
+              <mxPoint x="1651" y="625" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x2DrsLJZWxIZ46RDdsqc-41" value="NPCManager&lt;br&gt;（不进行轮询，抛出状态切换事件进行状态切换）&lt;br&gt;注：如果当前状态不需要切换就返回" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1209" y="495" width="322" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="x2DrsLJZWxIZ46RDdsqc-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=23;" edge="1" parent="1" source="x2DrsLJZWxIZ46RDdsqc-43" target="x2DrsLJZWxIZ46RDdsqc-55">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1111" y="815" />
+              <mxPoint x="1370" y="815" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x2DrsLJZWxIZ46RDdsqc-43" value="待机" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1051" y="685" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x2DrsLJZWxIZ46RDdsqc-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=23;" edge="1" parent="1" source="x2DrsLJZWxIZ46RDdsqc-45" target="x2DrsLJZWxIZ46RDdsqc-55">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1291" y="815" />
+              <mxPoint x="1370" y="815" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x2DrsLJZWxIZ46RDdsqc-45" value="攻击" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1231" y="685" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x2DrsLJZWxIZ46RDdsqc-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=23;" edge="1" parent="1" source="x2DrsLJZWxIZ46RDdsqc-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1370.9999999999998" y="835" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1471" y="815" />
+              <mxPoint x="1371" y="815" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x2DrsLJZWxIZ46RDdsqc-47" value="巡逻" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1411" y="685" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x2DrsLJZWxIZ46RDdsqc-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=23;" edge="1" parent="1" source="x2DrsLJZWxIZ46RDdsqc-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1370.9999999999998" y="835" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1651" y="815" />
+              <mxPoint x="1371" y="815" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x2DrsLJZWxIZ46RDdsqc-49" value="交互" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1591" y="685" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x2DrsLJZWxIZ46RDdsqc-50" value="范围内未发现敌人" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1051" y="635" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x2DrsLJZWxIZ46RDdsqc-51" value="发现敌人并处于攻击范围内" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1231" y="630" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="x2DrsLJZWxIZ46RDdsqc-52" value="发现敌人但不在攻击范围内" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1411" y="630" width="60" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="x2DrsLJZWxIZ46RDdsqc-53" value="需要对话之类的" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1591" y="635" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="x2DrsLJZWxIZ46RDdsqc-54" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;NPC&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1299.5" y="415" width="141" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x2DrsLJZWxIZ46RDdsqc-55" value="退出当前状态" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1309" y="855" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x2DrsLJZWxIZ46RDdsqc-56" value="ET的AI" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;" vertex="1" parent="1">
+          <mxGeometry x="1307" y="345" width="124" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x2DrsLJZWxIZ46RDdsqc-57" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;个人理解说明：&lt;br&gt;1、因为状态是固定时间判断条件是否满足的，所以NPCManager需要存在一个Update去时刻判断条件&lt;br&gt;2、&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;" vertex="1" parent="1">
+          <mxGeometry x="206" y="970" width="584" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="x2DrsLJZWxIZ46RDdsqc-58" value="条件不满足时" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="760" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x2DrsLJZWxIZ46RDdsqc-59" value="条件不满足时" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="760" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x2DrsLJZWxIZ46RDdsqc-60" value="条件不满足时" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="760" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x2DrsLJZWxIZ46RDdsqc-61" value="条件不满足时" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="760" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x2DrsLJZWxIZ46RDdsqc-62" value="切换状态时退出当前状态" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1051" y="760" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="x2DrsLJZWxIZ46RDdsqc-63" value="切换状态时退出当前状态" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1231" y="755" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="x2DrsLJZWxIZ46RDdsqc-64" value="切换状态时退出当前状态" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1411" y="755" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="x2DrsLJZWxIZ46RDdsqc-65" value="切换状态时退出当前状态" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1591" y="755" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="x2DrsLJZWxIZ46RDdsqc-66" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;个人理解说明：&lt;br&gt;1、&lt;br&gt;2、&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;" vertex="1" parent="1">
+          <mxGeometry x="1077" y="970" width="584" height="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
